@@ -1,12 +1,12 @@
 //complete this code
 class Person {
 	constructor(name,age){
-		this.name=name;
+		this.person_name=name;
 		this.person_age=age;
 	}
 
 	get name(){
-		return this.name;
+		return this.person_name;
 	}
 
 	set age(age){
@@ -46,3 +46,4 @@ teacher.teach();
 window.Person = Person;
 window.Student = Student;
 window.Teacher = Teacher;
+
